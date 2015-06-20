@@ -3,6 +3,7 @@ body {
   height: 776px;
   width: 1400px;
   overflow: hidden;
+  box-sizing: border-box;
 }
 
 p {
@@ -16,20 +17,6 @@ p {
   position: relative;
   transition: all 1s;
   left: 0;
-
-/*----------------------------------------------*/
-/*
-* location classes
-*/
-  &.square {
-    left: 0;
-    top: 0;
-  }
-
-  &.first {
-    left: -1450px;
-    top: -1300px;
-  }
 }
 
 .task-bar {
@@ -63,7 +50,7 @@ p {
   position: relative;
   left: @posLeft;
   top: @posTop - 320px;
-  width: 1400px;
+  width: 1440px;
   height: @slideHeight;
 }
 
@@ -91,8 +78,23 @@ p {
   padding: 2px 0 2px 40px;
 }
 
+.double-indent {
+  cursor: pointer;
+  padding: 2px 0 2px 80px;
+}
+
+.tripple-indent {
+  cursor: pointer;
+  padding: 2px 0 2px 120px;
+}
+
 .highlight {
   background: lightgoldenrodyellow;
+}
+
+.header {
+  font-size: 40px;
+  padding: 20px 0;
 }
 
 .square {
@@ -100,7 +102,12 @@ p {
 //  background: purple;
 }
 
-.slide1 {
+.transitions {
   .slide(1450px, 900px);
-  background: red;
+  background: #f2e8d5;
 }
+//
+//.transforms {
+//  .slide(2900px, 1800px);
+//  background: lightcyan;
+//}

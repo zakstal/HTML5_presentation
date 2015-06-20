@@ -6,7 +6,9 @@ var outPutFile = 'output/';
 var files = [
     'square/square.less',
     'style.less',
-    'slide1/slide1.less'
+    'transitions/transitions.less',
+    'positions.less',
+    'transforms/transforms.less'
 ];
 var css = [];
 var file;

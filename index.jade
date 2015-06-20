@@ -4,12 +4,14 @@ html
         meta(name="viewport", content="width=device-width, initial-scale=1.0")
         link(rel="stylesheet", href="style.css", type="text/css")
     body
-       #background.square
+       #background
             include square/_square
-            include slide1/slide
+            include transitions/transitions
+            //include transforms/transforms
        .task-bar
-           .button._btn-square(className="square") 3D Animate a cube
-           .button._btn-square(className="first") First
+           .button(className="transitions") Quick Review
+           .button(className="square") 3D Animate a cube
+           //.button(className="transforms") Transforms
     script(src="../globals.js")
     script(src="../utils.js")
     script(src="../square/square.js")

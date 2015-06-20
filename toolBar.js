@@ -3,10 +3,14 @@
     var buttons = document.getElementsByClassName('button');
     var button;
     var className;
-    var currentClassName = 'square';
+    var currentClassName = 'transitions';
+
+    background.classList.add(currentClassName);
 
     var switchClass = function (className) {
-        background.classList.remove(currentClassName);
+        if (currentClassName) {
+            background.classList.remove(currentClassName);
+        }
         background.classList.add(className);
         currentClassName = className;
         console.log('background', background.classList.contains(className));

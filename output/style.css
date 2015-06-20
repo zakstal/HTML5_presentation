@@ -1,3 +1,93 @@
+body {
+  height: 776px;
+  width: 1400px;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+p {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+#background {
+  width: 30000px;
+  height: 30000px;
+  position: relative;
+  transition: all 1s;
+  left: 0;
+}
+.task-bar {
+  background: #fff;
+  border: 1px solid #cccccc;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  height: 75px;
+  left: 0;
+  right: 0;
+}
+.task-bar .button {
+  font-family: FreeSans;
+  font-size: 15px;
+  float: left;
+  cursor: pointer;
+  border: 1px solid #cccccc;
+  color: lightslategray;
+  padding: 10px 10px 0 10px;
+  height: 60px;
+  text-align: center;
+  margin-right: 10px;
+  width: 75px;
+}
+.text-block {
+  font-family: sans-serif;
+  font-width: bold;
+  letter-spacing: 1px;
+  text-rendering: optimizeLegibility;
+  box-sizing: border-box;
+  color: #333;
+  font-size: 17px;
+  padding: 20px 10px 100px 50px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 55%;
+  height: 700px;
+  overflow: scroll;
+}
+.indent {
+  cursor: pointer;
+  padding: 2px 0 2px 40px;
+}
+.double-indent {
+  cursor: pointer;
+  padding: 2px 0 2px 80px;
+}
+.tripple-indent {
+  cursor: pointer;
+  padding: 2px 0 2px 120px;
+}
+.highlight {
+  background: lightgoldenrodyellow;
+}
+.header {
+  font-size: 40px;
+  padding: 20px 0;
+}
+.square {
+  position: relative;
+  left: 0px;
+  top: 0px;
+  width: 1440px;
+  height: 700px;
+}
+.transitions {
+  position: relative;
+  left: 1450px;
+  top: 580px;
+  width: 1440px;
+  height: 700px;
+  background: #f2e8d5;
+}
 .square #SCENE {
   width: 600px;
   height: 340px;
@@ -67,92 +157,24 @@
     -webkit-transform: rotateY(-180deg);
   }
 }
-body {
-  height: 776px;
-  width: 1400px;
-  overflow: hidden;
-}
-p {
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
-#background {
-  width: 30000px;
-  height: 30000px;
-  position: relative;
-  transition: all 1s;
-  left: 0;
-  /*----------------------------------------------*/
-  /*
-* location classes
-*/
-}
 #background.square {
   left: 0;
   top: 0;
 }
-#background.first {
+#background.transitions {
   left: -1450px;
   top: -1300px;
 }
-.task-bar {
-  background: #fff;
-  border: 1px solid #cccccc;
-  padding: 10px;
-  position: fixed;
-  bottom: 0;
-  height: 75px;
-  left: 0;
-  right: 0;
+.transitions .text-block {
+  width: 100%;
 }
-.task-bar .button {
-  font-family: FreeSans;
-  font-size: 15px;
-  float: left;
-  cursor: pointer;
-  border: 1px solid #cccccc;
-  color: lightslategray;
-  padding: 10px 10px 0 10px;
-  height: 60px;
-  text-align: center;
-  margin-right: 10px;
-  width: 75px;
-}
-.text-block {
-  font-family: sans-serif;
-  font-width: bold;
-  letter-spacing: 1px;
-  text-rendering: optimizeLegibility;
-  box-sizing: border-box;
-  color: #333;
-  font-size: 17px;
-  padding: 20px 10px 100px 50px;
+.transitions .support {
+  background: url('../assets/transition-support.png') center no-repeat;
+  background-size: 1242px 622px;
+  background-position-y: -155px;
   position: absolute;
-  top: 0;
-  right: 0;
-  width: 55%;
-  height: 700px;
-  overflow: scroll;
-}
-.indent {
-  cursor: pointer;
-  padding: 2px 0 2px 40px;
-}
-.highlight {
-  background: lightgoldenrodyellow;
-}
-.square {
-  position: relative;
-  left: 0px;
-  top: 0px;
-  width: 1400px;
-  height: 700px;
-}
-.slide1 {
-  position: relative;
-  left: 1450px;
-  top: 580px;
-  width: 1400px;
-  height: 700px;
-  background: red;
+  height: 352px;
+  width: 1222px;
+  left: 100px;
+  top: 330px;
 }
