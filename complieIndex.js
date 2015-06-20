@@ -2,8 +2,12 @@ var jade = require('jade');
 var fs = require('fs');
 var less = require('less');
 
-var files = ['square/square.less', 'style.less'];
-var outPutFile = 'output';
+var outPutFile = 'output/';
+var files = [
+    'square/square.less',
+    'style.less',
+    'slide1/slide1.less'
+];
 var css = [];
 var file;
 var dataNew;
@@ -13,13 +17,11 @@ var fn = jade.compileFile('index.jade');
 var html = fn();
 
 var writeFile = function (path, file) {
-    fs.writeFileSync(outPutFile + path, file);
+    fs.writeFileSync(path, file);
 };
 
 var lessOutput = function (output) {
-    //console.log(output.css);
     css.push(output.css);
-    //console.log(css);
 };
 
 var lessError = function (err) {
@@ -27,7 +29,7 @@ var lessError = function (err) {
 };
 
 var outPutCss = function () {
-    writeFile("style.css", css.join(''));
+    writeFile(outPutFile + "style.css", css.join(''));
 };
 
 var handleFile = function (err, data) {
@@ -46,6 +48,4 @@ for (var i = 0; i < files.length; i++) {
 }
 
 
-
-
-writeFile("index.html", html);
+writeFile(outPutFile + "index.html", html);

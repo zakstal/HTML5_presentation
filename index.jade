@@ -4,6 +4,13 @@ html
         meta(name="viewport", content="width=device-width, initial-scale=1.0")
         link(rel="stylesheet", href="style.css", type="text/css")
     body
-       .background
+       #background.square
             include square/_square
-    script(src="./square/square.js")
+            include slide1/slide
+       .task-bar
+           .button._btn-square(className="square") 3D Animate a cube
+           .button._btn-square(className="first") First
+    script(src="../globals.js")
+    script(src="../utils.js")
+    script(src="../square/square.js")
+    script(src="../toolBar.js")

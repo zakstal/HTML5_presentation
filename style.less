@@ -5,14 +5,102 @@ body {
   overflow: hidden;
 }
 
-.background {
-  width: 5000px;
-  height: 5000px;
+p {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#background {
+  width: 30000px;
+  height: 30000px;
   position: relative;
   transition: all 1s;
   left: 0;
-  .start {
-    background: red;
+
+/*----------------------------------------------*/
+/*
+* location classes
+*/
+  &.square {
+    left: 0;
+    top: 0;
+  }
+
+  &.first {
+    left: -1450px;
+    top: -1300px;
   }
 }
 
+.task-bar {
+  @taskBarHeight: 75px;
+  @taskBarPadding: 10px;
+  @taskBarBorderCl: #ccc;
+  background: #fff;
+  border: 1px solid @taskBarBorderCl;
+  padding: @taskBarPadding;
+  position: fixed;
+  bottom: 0;
+  height: @taskBarHeight;
+  left: 0;
+  right: 0;
+  .button {
+    font-family: FreeSans;
+    font-size: 15px;
+    float: left;
+    cursor: pointer;
+    border: 1px solid @taskBarBorderCl;
+    color: lightslategray;
+    padding: 10px 10px 0 10px;
+    height: @taskBarHeight - 15px;
+    text-align: center;
+    margin-right: @taskBarPadding;
+    width: @taskBarHeight;
+  }
+}
+@slideHeight: 700px;
+.slide(@posLeft, @posTop) {
+  position: relative;
+  left: @posLeft;
+  top: @posTop - 320px;
+  width: 1400px;
+  height: @slideHeight;
+}
+
+
+.text-block {
+//  background: blueviolet;
+  font-family: sans-serif;
+  font-width: bold;
+  letter-spacing: 1px;
+  text-rendering: optimizeLegibility;
+  box-sizing: border-box;
+  color: #333;
+  font-size: 17px;
+  padding: 20px 10px 100px 50px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 55%;
+  height: @slideHeight;
+  overflow: scroll;
+}
+
+.indent {
+  cursor: pointer;
+  padding: 2px 0 2px 40px;
+}
+
+.highlight {
+  background: lightgoldenrodyellow;
+}
+
+.square {
+  .slide(0px, 320px);
+//  background: purple;
+}
+
+.slide1 {
+  .slide(1450px, 900px);
+  background: red;
+}

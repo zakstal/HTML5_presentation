@@ -1,8 +1,44 @@
-.SCENE
-    #OBJECT
-        .FACE.im1
-        .FACE.im2
-        .FACE.im3
-        .FACE.im4
-        .FACE.im5
-        .FACE.im6
+.square
+    #SCENE
+        #OBJECT
+            .FACE.im1
+            .FACE.im2
+            .FACE.im3
+            .FACE.im4
+            .FACE.im5
+            .FACE.im6
+    .text-block
+        p #SCENE {
+            .indent.highlight.toggle-perspective -webkit-perspective: 1000px;
+            .indent width: 600px;
+            .indent height: 340px;
+            p }
+        p #OBJECT {
+            .indent.highlight.toggle-perserve -webkit-transform-style: preserve-3d;
+            .indent -webkit-transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);
+            .indent -webkit-transition: -webkit-transform 1s ease-out;
+            .indent animation: switch;
+            .indent position: absolute;
+            .indent width: 100%;
+            .indent height: 100%;
+            .indent left: 0;
+            .indent top: 150px;
+            p }
+
+            p .FACE {
+                .indent position: absolute;
+                .indent left: 165px;
+                .indent top: 15px;
+                .indent height: 200px;
+                .indent width: 200px;
+                .indent background: red;
+            p }
+            p .FACE.im1 { -webkit-transform: translateZ(150px); background: yellowgreen;}
+            p .FACE.im2 {-webkit-transform: translateZ(-150px);}
+            p .FACE.im3 { -webkit-transform: translateX(150px) rotateY(90deg); background: url('../assets/clintons.png'); background-size: 200px 200px;  }
+            p .FACE.im4 { -webkit-transform: translateX(-150px) rotateY(-90deg); background: greenyellow; }
+            p .FACE.im5 { -webkit-transform: translateY(150px) rotateX(90deg); background: green; }
+            p .FACE.im6 { -webkit-transform: translateY(-150px) rotateX(-90deg); background: aliceblue; }
+            p
+            p
+            p

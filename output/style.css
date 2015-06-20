@@ -1,23 +1,27 @@
-.SCENE {
-  -webkit-perspective: 1000px;
+.square #SCENE {
   width: 600px;
   height: 340px;
 }
-#OBJECT {
-  -webkit-transform-style: preserve-3d;
+.square #SCENE.perspective {
+  -webkit-perspective: 1000px;
+}
+.square #OBJECT {
   -webkit-transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);
   -webkit-transition: -webkit-transform 1s ease-out;
-  animation: switch ;
+  animation: switch;
   position: absolute;
   width: 100%;
   height: 100%;
-  left: 300px;
-  top: 300px;
+  left: 0;
+  top: 150px;
 }
-#OBJECT.left {
+.square #OBJECT.preserve {
+  -webkit-transform-style: preserve-3d;
+}
+.square #OBJECT.left {
   /*animation-delay: 3s;*/
 }
-.FACE {
+.square .FACE {
   position: absolute;
   left: 165px;
   top: 15px;
@@ -25,27 +29,27 @@
   width: 200px;
   background: red;
 }
-.FACE.im1 {
+.square .FACE.im1 {
   -webkit-transform: translateZ(150px);
   background: yellowgreen;
 }
-.FACE.im2 {
+.square .FACE.im2 {
   -webkit-transform: translateZ(-150px);
 }
-.FACE.im3 {
+.square .FACE.im3 {
   -webkit-transform: translateX(150px) rotateY(90deg);
   background: url('../assets/clintons.png');
   background-size: 200px 200px;
 }
-.FACE.im4 {
+.square .FACE.im4 {
   -webkit-transform: translateX(-150px) rotateY(-90deg);
   background: greenyellow;
 }
-.FACE.im5 {
+.square .FACE.im5 {
   -webkit-transform: translateY(150px) rotateX(90deg);
   background: green;
 }
-.FACE.im6 {
+.square .FACE.im6 {
   -webkit-transform: translateY(-150px) rotateX(-90deg);
   background: aliceblue;
 }
@@ -68,13 +72,87 @@ body {
   width: 1400px;
   overflow: hidden;
 }
-.background {
-  width: 5000px;
-  height: 5000px;
+p {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+#background {
+  width: 30000px;
+  height: 30000px;
   position: relative;
   transition: all 1s;
   left: 0;
+  /*----------------------------------------------*/
+  /*
+* location classes
+*/
 }
-.background .start {
+#background.square {
+  left: 0;
+  top: 0;
+}
+#background.first {
+  left: -1450px;
+  top: -1300px;
+}
+.task-bar {
+  background: #fff;
+  border: 1px solid #cccccc;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  height: 75px;
+  left: 0;
+  right: 0;
+}
+.task-bar .button {
+  font-family: FreeSans;
+  font-size: 15px;
+  float: left;
+  cursor: pointer;
+  border: 1px solid #cccccc;
+  color: lightslategray;
+  padding: 10px 10px 0 10px;
+  height: 60px;
+  text-align: center;
+  margin-right: 10px;
+  width: 75px;
+}
+.text-block {
+  font-family: sans-serif;
+  font-width: bold;
+  letter-spacing: 1px;
+  text-rendering: optimizeLegibility;
+  box-sizing: border-box;
+  color: #333;
+  font-size: 17px;
+  padding: 20px 10px 100px 50px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 55%;
+  height: 700px;
+  overflow: scroll;
+}
+.indent {
+  cursor: pointer;
+  padding: 2px 0 2px 40px;
+}
+.highlight {
+  background: lightgoldenrodyellow;
+}
+.square {
+  position: relative;
+  left: 0px;
+  top: 0px;
+  width: 1400px;
+  height: 700px;
+}
+.slide1 {
+  position: relative;
+  left: 1450px;
+  top: 580px;
+  width: 1400px;
+  height: 700px;
   background: red;
 }
