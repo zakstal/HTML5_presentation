@@ -167,22 +167,6 @@ p {
   height: 700px;
   background: peachpuff;
 }
-.transitions .text-block {
-  width: 100%;
-}
-.transitions .text-block > .header {
-  color: darkgoldenrod;
-}
-.transitions .support {
-  background: url('../assets/transition-support.png') center no-repeat;
-  background-size: 1242px 622px;
-  background-position-y: -155px;
-  position: absolute;
-  height: 352px;
-  width: 1222px;
-  left: 100px;
-  top: 330px;
-}
 #background.square {
   left: 0;
   top: 0;
@@ -255,5 +239,24 @@ p {
   -webkit-transform: perspective(400) translate3d(-600px, -180px, -420px);
 }
 .transforms .scale3DTr {
-  -webkit-transform: perspective(400) scake3d(0.5, 0.7, 2);
+  -webkit-transform: perspective(400) scale3d(0.5, 0.2, 0.02);
+}
+.transforms .rotate3DTr {
+  -webkit-transform: perspective(400) rotate3d(1, 1, -2, 45deg);
+}
+.transitions .text-block {
+  width: 100%;
+}
+.transitions .text-block > .header {
+  color: darkgoldenrod;
+}
+.transitions .support {
+  background: url('../assets/transition-support.png') center no-repeat;
+  background-size: 1242px 622px;
+  background-position-y: -155px;
+  position: absolute;
+  height: 352px;
+  width: 1222px;
+  left: 100px;
+  top: 330px;
 }

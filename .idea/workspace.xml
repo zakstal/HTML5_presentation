@@ -60,7 +60,7 @@
             <entry file="file://$PROJECT_DIR$/transforms/transforms.less">
               <provider selected="true" editor-type-id="text-editor">
                 <state vertical-scroll-proportion="0.5868644" vertical-offset="878" max-vertical-offset="1365">
-                  <caret line="77" column="59" selection-start-line="77" selection-start-column="59" selection-end-line="77" selection-end-column="59" />
+                  <caret line="77" column="62" selection-start-line="77" selection-start-column="62" selection-end-line="77" selection-end-column="62" />
                   <folding />
                 </state>
               </provider>
@@ -133,8 +133,8 @@
           <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/output/style.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0" vertical-offset="3975" max-vertical-offset="3975">
-                  <caret line="243" column="1" selection-start-line="243" selection-start-column="1" selection-end-line="243" selection-end-column="1" />
+                <state vertical-scroll-proportion="0.0" vertical-offset="3675" max-vertical-offset="4020">
+                  <caret line="224" column="1" selection-start-line="224" selection-start-column="1" selection-end-line="224" selection-end-column="1" />
                   <folding />
                 </state>
               </provider>
@@ -488,8 +488,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/output/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="3975" max-vertical-offset="3975">
-          <caret line="243" column="1" selection-start-line="243" selection-start-column="1" selection-end-line="243" selection-end-column="1" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="3675" max-vertical-offset="4020">
+          <caret line="224" column="1" selection-start-line="224" selection-start-column="1" selection-end-line="224" selection-end-column="1" />
           <folding />
         </state>
       </provider>
@@ -625,7 +625,7 @@
     <entry file="file://$PROJECT_DIR$/transforms/transforms.less">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5868644" vertical-offset="878" max-vertical-offset="1365">
-          <caret line="77" column="59" selection-start-line="77" selection-start-column="59" selection-end-line="77" selection-end-column="59" />
+          <caret line="77" column="62" selection-start-line="77" selection-start-column="62" selection-end-line="77" selection-end-column="62" />
           <folding />
         </state>
       </provider>
