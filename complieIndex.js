@@ -8,7 +8,9 @@ var files = [
     'style.less',
     'transitions/transitions.less',
     'positions.less',
-    'transforms/transforms.less'
+    'transforms/transforms.less',
+    'keyframe/keyframe.less',
+    'pac-man/style.less'
 ];
 var css = [];
 var file;

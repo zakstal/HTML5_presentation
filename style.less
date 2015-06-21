@@ -11,6 +11,11 @@ p {
   margin-bottom: 10px;
 }
 
+a {
+  display: block;
+  text-decoration: none;
+}
+
 #background {
   width: 30000px;
   height: 30000px;
@@ -49,7 +54,7 @@ p {
 .slide(@posLeft, @posTop) {
   position: relative;
   left: @posLeft;
-  top: @posTop - 320px;
+  top: @posTop - 220px;
   width: 1440px;
   height: @slideHeight;
 }
@@ -87,6 +92,10 @@ p {
   padding: 2px 0 2px 120px;
 }
 
+.extra-space {
+  margin: 25px 0;
+}
+
 .highlight {
   background: lightgoldenrodyellow;
 }
@@ -105,10 +114,6 @@ p {
 //  background: purple;
 }
 
-.sub-heading {
-
-}
-
 .transitions {
   .slide(1450px, 900px);
   background: #f2e8d5;
@@ -117,4 +122,20 @@ p {
 .transforms {
   .slide(2900px, 1800px);
   background: peachpuff;
+}
+
+
+.keyframe {
+  .slide(2900px, 0);
+  background: #fff;
+}
+
+.pac-man-screen {
+  .slide(1400px, 0);
+}
+
+
+.keyframe {
+  .slide(2900px, -800px);
+  background: red;
 }

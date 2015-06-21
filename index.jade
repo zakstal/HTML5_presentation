@@ -8,12 +8,28 @@ html
             include square/_square
             include transitions/transitions
             include transforms/transforms
+            include keyframe/keyframe
+            include pac-man/_pacman
+            include svg/svg
        .task-bar
            .button(className="transitions") Quick Review
            .button(className="transforms") Transforms
            .button(className="square") 3D Animate a cube
+           .button(className="keyframes") Keyframes
+           .button(className="pacman") Pac Man
+           .button(className="svg") SVG
+
     script(src="../globals.js")
-    script(src="../utils.js")
+    script(src="../pac-man/utils.js")
+    script(src="../pac-man/element.js")
+    script(src="../pac-man/templates.js")
+    script(src="../pac-man/movingObject.js")
+    script(src="../pac-man/pacMan.js")
+    script(src="../pac-man/ghost.js")
+    script(src="../pac-man/switchZone.js")
+    script(src="../pac-man/game.js")
+    script(src="../presutils.js")
+    script(src="../keyframe/keyframe.js")
     script(src="../transforms/transforms.js")
     script(src="../square/square.js")
     script(src="../toolBar.js")

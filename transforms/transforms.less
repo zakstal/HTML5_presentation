@@ -39,8 +39,10 @@
   }
 
   #transform-object{
+    box-sizing: border-box;
     background: whitesmoke;
     border: 2px solid #aaa;
+    font-family: sans-serif;
     font-size: 20px;
     font-weight: bold;
     color: darkslateblue;
@@ -98,7 +100,7 @@
   .scale3DTr {
     -webkit-transform: perspective(400) scale3d(0.5, 0.2, 0.02);
      &:before {
-       content: '-webkit-transform: perspective(400) scale3d(0.5, 0.2, 0.02);';
+       content: '-webkit-transform: perspective(400) scale3d(0.5, 0.2, 2);';
      }
   }
 
@@ -106,7 +108,7 @@
     -webkit-transform: perspective(400) rotate3d(1, 1, -2, 45deg);
     &:before {
       -webkit-transform: perspective(400) rotate3d(1, 1, -2, -45deg);
-      content: ' -webkit-transform: perspective(400) rotate3d(1, 1, -2, 45deg)';
+      content: ' -webkit-transform: perspective(400) rotate3d(1, 1, -4, 45deg)';
     }
   }
 

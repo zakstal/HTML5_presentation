@@ -1,0 +1,57 @@
+.keyframe
+    .text-block
+        .header.orange @Keyframes
+        p.indent animation:
+        p.indent animation-delay / duration / timing-function:
+        p.indent animation-name:
+        p.indent animation-direction:
+        p.indent animation-fill-mode:
+        p.indent animation-iteration-count:
+        br
+        p.indent#both Both
+        br
+        p.indent#toggleMovit #[span.orange @keyframes] #[span.darkyellow moveit] {
+        p.double-indent #[span.yellow 0% ] {
+        p.tripple-indent.purple bottom: 300px;
+        p.double-indent }
+        p.double-indent #[span.yellow 100% ] {
+        p.tripple-indent.purple bottom: 100px;
+        p.indent }
+        br
+        p.indent.extra-space #[span.purple animation-name:]     #[span.red moveit ease-in .5s infinite alternate];
+        br
+        br
+        p.indent#toggleJump #[span.orange @keyframes] #[span.red jump] {
+        p.double-indent #[span.yellow 0%] {
+        p.tripple-indent.purple -webkit-transform: perspective(400) scale3d(1, 1, 1) ;
+        p.double-indent }
+        p.double-indent #[span.yellow 60%] {
+        p.tripple-indent.purple -webkit-transform: perspective(400) scale3d(1, 1, 1);
+        p.double-indent }
+        p.double-indent #[span.yellow 100% ] {
+        p.tripple-indent.purple -webkit-transform: perspective(400) scale3d(1.2, 0.5, 2);
+        p.double-indent }
+        p.indent }
+        br
+        p.indent.extra-space #[span.purple animation-name:]     #[span.red jump], #[span.darkyellow moveit];
+        p.indent.extra-space #[span.purple animation-duration:] #[span.red .5s], #[span.darkyellow .5s];
+        p.indent.extra-space #[span.purple animation-timing-function:] #[span.red ease-in], #[span.darkyellow ease-out];
+        p.indent.extra-space #[span.purple animation-iteration-count:] #[span.red infinite], #[span.darkyellow infinite];
+        p.indent.extra-space #[span.purple animation-direction:] #[span.red alternate], #[span.darkyellow alternate];
+        br
+        br
+        br
+        br
+        br
+        p.sub-heading Example Links
+        a.indent(href="http://www.sitepoint.com/examples/css3pong/step6") pong
+        a.indent(href="http://codepen.io/thebabydino/pen/DKaLo") rotating
+        a.indent(href="http://codepen.io/rachelnabors/pen/AeEHw") alice in wonderland
+        a.indent(href="http://happyfuncorp.com/#home") happy fun corp
+        a.indent(href="http://codepen.io/hakimel/details/fILbu") hole
+        br
+        br
+        p.indent credit:
+        p.double-indent(href="https://animateyourhtml5.appspot.com/pres/index.html?lang=en#7") https://animateyourhtml5.appspot.com/pres/index.html?lang=en#7
+        p.double-indent(href="https://css-tricks.com/snippets/css/keyframe-animation-syntax/") https://css-tricks.com/snippets/css/keyframe-animation-syntax/
+    #jumper
