@@ -108,7 +108,7 @@ p {
 }
 .text-block {
   font-family: sans-serif;
-  font-width: bold;
+  font-weight: bold;
   letter-spacing: 1px;
   text-rendering: optimizeLegibility;
   box-sizing: border-box;
@@ -141,6 +141,9 @@ p {
   font-size: 40px;
   padding: 20px 0;
 }
+.sub-heading {
+  font-size: 25px;
+}
 .square {
   position: relative;
   left: 0px;
@@ -162,10 +165,13 @@ p {
   top: 1480px;
   width: 1440px;
   height: 700px;
-  background: lightcyan;
+  background: peachpuff;
 }
 .transitions .text-block {
   width: 100%;
+}
+.transitions .text-block > .header {
+  color: darkgoldenrod;
 }
 .transitions .support {
   background: url('../assets/transition-support.png') center no-repeat;
@@ -186,6 +192,68 @@ p {
   top: -1300px;
 }
 #background.transforms {
-  left: -2890px;
+  left: -2850px;
   top: -2880px;
+}
+.transforms .text-block {
+  width: 100%;
+}
+.transforms .rotateTrans {
+  background: lightcoral;
+}
+.transforms .scaleTrans {
+  background: lightblue;
+}
+.transforms .skewTrans {
+  background: lightgoldenrodyellow;
+}
+.transforms .translateTrans {
+  background: lightgrey;
+}
+.transforms .matrixTrans {
+  background: lightsalmon;
+}
+.transforms .trans3D {
+  color: darkslategray;
+  background: #fff;
+}
+.transforms .scale3d {
+  color: darkslategray;
+  background: #fff;
+}
+.transforms .rotate3D {
+  color: darkslategray;
+  background: #fff;
+}
+.transforms #transform-object {
+  background: whitesmoke;
+  border: 2px solid #aaa;
+  position: absolute;
+  height: 450px;
+  width: 500px;
+  top: 140px;
+  left: 723px;
+  transition: all 1s;
+}
+.transforms .rotateTr {
+  transform: rotate(45deg);
+  content: 'rotete(45deg)';
+}
+.transforms .scaleTr {
+  transform: scale(2);
+}
+.transforms .skewTr {
+  transform: skew(25deg);
+}
+.transforms .transTr {
+  transform: translate(-80px, -120px);
+}
+.transforms .matrixTr {
+  transform: matrix(0.70710678, 0.70710678, -0.70710678, 0.70710678, -0.70710678, 34.64823228);
+}
+.transforms .trans3DTr {
+  -webkit-transform: perspective(400) translate3d(-600px, -180px, -420px);
+}
+.transforms .scale3DTr {
+  -webkit-transform: perspective(400) scake3d(0.5, 0.7, 2);
 }
