@@ -41,6 +41,10 @@
   #transform-object{
     background: whitesmoke;
     border: 2px solid #aaa;
+    font-size: 20px;
+    font-weight: bold;
+    color: darkslateblue;
+    padding: 120px 30px;
     position: absolute;
     height: 450px;
     width: 500px;
@@ -51,35 +55,59 @@
 
   .rotateTr {
       transform: rotate(45deg);
-      content: 'rotete(45deg)';
+      &:before {
+        content: 'transform: rotate(45deg);';
+      }
   }
 
   .scaleTr {
     transform: scale(2);
+     &:before {
+       content: 'transform: scale(2);';
+     }
   }
 
   .skewTr {
     transform: skew(25deg);
+     &:before {
+       content: 'transform: skew(25deg);';
+     }
   }
 
   .transTr {
     transform: translate(-80px, -120px);
+     &:before {
+       content: 'transform: translate(-80px, -120px);';
+     }
   }
 
   .matrixTr {
     transform: matrix(0.7071067811865475, 0.7071067811865476, -0.7071067811865476, 0.7071067811865475, -0.7071067811865497, 34.648232278140824);
+     &:before {
+       content: 'transform: matrix(0.7071067811865475, 0.7071067811865476, -0.7071067811865476, 0.7071067811865475, -0.7071067811865497, 34.648232278140824);';
+     }
   }
 
   .trans3DTr {
     -webkit-transform: perspective(400) translate3d(-600px, -180px, -420px);
+     &:before {
+       content: '-webkit-transform: perspective(400) translate3d(-600px, -180px, -420px);';
+     }
   }
 
   .scale3DTr {
     -webkit-transform: perspective(400) scale3d(0.5, 0.2, 0.02);
+     &:before {
+       content: '-webkit-transform: perspective(400) scale3d(0.5, 0.2, 0.02);';
+     }
   }
 
   .rotate3DTr {
     -webkit-transform: perspective(400) rotate3d(1, 1, -2, 45deg);
+    &:before {
+      -webkit-transform: perspective(400) rotate3d(1, 1, -2, -45deg);
+      content: ' -webkit-transform: perspective(400) rotate3d(1, 1, -2, 45deg)';
+    }
   }
 
 

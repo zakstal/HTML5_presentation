@@ -167,6 +167,22 @@ p {
   height: 700px;
   background: peachpuff;
 }
+.transitions .text-block {
+  width: 100%;
+}
+.transitions .text-block > .header {
+  color: darkgoldenrod;
+}
+.transitions .support {
+  background: url('../assets/transition-support.png') center no-repeat;
+  background-size: 1242px 622px;
+  background-position-y: -155px;
+  position: absolute;
+  height: 352px;
+  width: 1222px;
+  left: 100px;
+  top: 330px;
+}
 #background.square {
   left: 0;
   top: 0;
@@ -212,6 +228,10 @@ p {
 .transforms #transform-object {
   background: whitesmoke;
   border: 2px solid #aaa;
+  font-size: 20px;
+  font-weight: bold;
+  color: darkslateblue;
+  padding: 120px 30px;
   position: absolute;
   height: 450px;
   width: 500px;
@@ -221,42 +241,50 @@ p {
 }
 .transforms .rotateTr {
   transform: rotate(45deg);
-  content: 'rotete(45deg)';
+}
+.transforms .rotateTr:before {
+  content: 'transform: rotate(45deg);';
 }
 .transforms .scaleTr {
   transform: scale(2);
 }
+.transforms .scaleTr:before {
+  content: 'transform: scale(2);';
+}
 .transforms .skewTr {
   transform: skew(25deg);
+}
+.transforms .skewTr:before {
+  content: 'transform: skew(25deg);';
 }
 .transforms .transTr {
   transform: translate(-80px, -120px);
 }
+.transforms .transTr:before {
+  content: 'transform: translate(-80px, -120px);';
+}
 .transforms .matrixTr {
   transform: matrix(0.70710678, 0.70710678, -0.70710678, 0.70710678, -0.70710678, 34.64823228);
+}
+.transforms .matrixTr:before {
+  content: 'transform: matrix(0.7071067811865475, 0.7071067811865476, -0.7071067811865476, 0.7071067811865475, -0.7071067811865497, 34.648232278140824);';
 }
 .transforms .trans3DTr {
   -webkit-transform: perspective(400) translate3d(-600px, -180px, -420px);
 }
+.transforms .trans3DTr:before {
+  content: '-webkit-transform: perspective(400) translate3d(-600px, -180px, -420px);';
+}
 .transforms .scale3DTr {
   -webkit-transform: perspective(400) scale3d(0.5, 0.2, 0.02);
+}
+.transforms .scale3DTr:before {
+  content: '-webkit-transform: perspective(400) scale3d(0.5, 0.2, 0.02);';
 }
 .transforms .rotate3DTr {
   -webkit-transform: perspective(400) rotate3d(1, 1, -2, 45deg);
 }
-.transitions .text-block {
-  width: 100%;
-}
-.transitions .text-block > .header {
-  color: darkgoldenrod;
-}
-.transitions .support {
-  background: url('../assets/transition-support.png') center no-repeat;
-  background-size: 1242px 622px;
-  background-position-y: -155px;
-  position: absolute;
-  height: 352px;
-  width: 1222px;
-  left: 100px;
-  top: 330px;
+.transforms .rotate3DTr:before {
+  -webkit-transform: perspective(400) rotate3d(1, 1, -2, -45deg);
+  content: ' -webkit-transform: perspective(400) rotate3d(1, 1, -2, 45deg)';
 }
