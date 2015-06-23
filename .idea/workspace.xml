@@ -23,24 +23,34 @@
     <favorites_list name="HTML5" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.60130185">
+    <splitter split-orientation="horizontal" split-proportion="0.4743694">
       <split-first>
         <leaf>
-          <file leaf-file-name="index.jade" pinned="false" current-in-tab="true">
+          <file leaf-file-name="index.jade" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/index.jade">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.6653226" vertical-offset="45" max-vertical-offset="720">
-                  <caret line="25" column="39" selection-start-line="25" selection-start-column="39" selection-end-line="25" selection-end-column="39" />
+                <state vertical-scroll-proportion="0.0" vertical-offset="224" max-vertical-offset="735">
+                  <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="svg-attr.jade" pinned="false" current-in-tab="false">
+          <file leaf-file-name="canvas.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/canvas/canvas.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="555">
+                  <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="svg-attr.jade" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/svg-attr/svg-attr.jade">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1890">
-                  <caret line="2" column="45" selection-start-line="2" selection-start-column="45" selection-end-line="2" selection-end-column="45" />
+                <state vertical-scroll-proportion="0.6955645" vertical-offset="0" max-vertical-offset="1890">
+                  <caret line="23" column="79" selection-start-line="23" selection-start-column="79" selection-end-line="23" selection-end-column="79" />
                   <folding />
                 </state>
               </provider>
@@ -49,8 +59,8 @@
           <file leaf-file-name="svg.jade" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/svg/svg.jade">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-9.037037" vertical-offset="116" max-vertical-offset="585">
-                  <caret line="24" column="26" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="26" />
+                <state vertical-scroll-proportion="0.0" vertical-offset="89" max-vertical-offset="585">
+                  <caret line="21" column="39" selection-start-line="21" selection-start-column="39" selection-end-line="21" selection-end-column="39" />
                   <folding />
                 </state>
               </provider>
@@ -69,8 +79,8 @@
           <file leaf-file-name="svg-ani.jade" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/svg-animation/svg-ani.jade">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-9.592592" vertical-offset="1151" max-vertical-offset="2475">
-                  <caret line="94" column="33" selection-start-line="94" selection-start-column="33" selection-end-line="94" selection-end-column="33" />
+                <state vertical-scroll-proportion="-6.814815" vertical-offset="1406" max-vertical-offset="2490">
+                  <caret line="106" column="49" selection-start-line="106" selection-start-column="49" selection-end-line="106" selection-end-column="49" />
                   <folding />
                 </state>
               </provider>
@@ -91,16 +101,6 @@
               <provider selected="true" editor-type-id="text-editor">
                 <state vertical-scroll-proportion="0.0" vertical-offset="205" max-vertical-offset="960">
                   <caret line="49" column="56" selection-start-line="49" selection-start-column="56" selection-end-line="49" selection-end-column="56" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="keyframe.less" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/keyframe/keyframe.less">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0" vertical-offset="615" max-vertical-offset="1230">
-                  <caret line="48" column="3" selection-start-line="48" selection-start-column="3" selection-end-line="48" selection-end-column="3" />
                   <folding />
                 </state>
               </provider>
@@ -133,28 +133,20 @@
           <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/output/style.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0" vertical-offset="9584" max-vertical-offset="10815">
-                  <caret line="715" column="0" selection-start-line="715" selection-start-column="0" selection-end-line="715" selection-end-column="0" />
-                  <folding />
+                <state vertical-scroll-proportion="0.0" vertical-offset="9929" max-vertical-offset="11160">
+                  <caret line="738" column="0" selection-start-line="738" selection-start-column="0" selection-end-line="738" selection-end-column="0" />
+                  <folding>
+                    <marker date="1435059620000" expanded="true" signature="2682:2683" placeholder="{...}" />
+                  </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="style.less" pinned="false" current-in-tab="false">
+          <file leaf-file-name="style.less" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/style.less">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-24.375" vertical-offset="240" max-vertical-offset="2910">
-                  <caret line="55" column="5" selection-start-line="55" selection-start-column="5" selection-end-line="55" selection-end-column="5" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="canvas.jade" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/canvas/canvas.jade">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="120">
-                  <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+                <state vertical-scroll-proportion="0.77754235" vertical-offset="2018" max-vertical-offset="3165">
+                  <caret line="159" column="1" selection-start-line="159" selection-start-column="1" selection-end-line="159" selection-end-column="11" />
                   <folding />
                 </state>
               </provider>
@@ -163,8 +155,8 @@
           <file leaf-file-name="canvas.less" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/canvas/canvas.less">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-1.875" vertical-offset="0" max-vertical-offset="150">
-                  <caret line="3" column="3" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
+                <state vertical-scroll-proportion="-9.375" vertical-offset="0" max-vertical-offset="345">
+                  <caret line="15" column="27" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
                   <folding />
                 </state>
               </provider>
@@ -173,8 +165,8 @@
           <file leaf-file-name="svg-attr.less" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/svg-attr/svg-attr.less">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-0.625" vertical-offset="0" max-vertical-offset="285">
-                  <caret line="1" column="2" selection-start-line="1" selection-start-column="2" selection-end-line="3" selection-end-column="3" />
+                <state vertical-scroll-proportion="-3.125" vertical-offset="0" max-vertical-offset="285">
+                  <caret line="5" column="2" selection-start-line="5" selection-start-column="2" selection-end-line="12" selection-end-column="3" />
                   <folding />
                 </state>
               </provider>
@@ -193,17 +185,17 @@
           <file leaf-file-name="positions.less" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/positions.less">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-30.625" vertical-offset="0" max-vertical-offset="855">
-                  <caret line="49" column="25" selection-start-line="49" selection-start-column="25" selection-end-line="49" selection-end-column="25" />
+                <state vertical-scroll-proportion="-14.041667" vertical-offset="308" max-vertical-offset="855">
+                  <caret line="43" column="21" selection-start-line="43" selection-start-column="16" selection-end-line="43" selection-end-column="21" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="toolBar.js" pinned="false" current-in-tab="true">
+          <file leaf-file-name="toolBar.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/toolBar.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.24193548" vertical-offset="0" max-vertical-offset="705">
+                <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="705">
                   <caret line="8" column="46" selection-start-line="8" selection-start-column="46" selection-end-line="8" selection-end-column="46" />
                   <folding />
                 </state>
@@ -213,7 +205,7 @@
           <file leaf-file-name="presutils.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/presutils.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="255">
+                <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
                   <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
                   <folding />
                 </state>
@@ -226,8 +218,18 @@
                 <state vertical-scroll-proportion="0.0" vertical-offset="1170" max-vertical-offset="1260">
                   <caret line="78" column="7" selection-start-line="78" selection-start-column="7" selection-end-line="78" selection-end-column="7" />
                   <folding>
-                    <marker date="1435027089000" expanded="true" signature="9152:10338" placeholder="..." />
+                    <marker date="1435059620000" expanded="true" signature="196:8815" placeholder="..." />
                   </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="canvas.jade" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/canvas/canvas.jade">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.0" vertical-offset="149" max-vertical-offset="645">
+                  <caret line="12" column="32" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
+                  <folding />
                 </state>
               </provider>
             </entry>
@@ -263,21 +265,22 @@
         <option value="$PROJECT_DIR$/pac-man/game.js" />
         <option value="$PROJECT_DIR$/svg/svg.less" />
         <option value="$PROJECT_DIR$/keyframe/keyframe.less" />
-        <option value="$PROJECT_DIR$/svg/svg.jade" />
         <option value="$PROJECT_DIR$/square/_square.jade" />
         <option value="$PROJECT_DIR$/keyframe/keyframe.jade" />
         <option value="$PROJECT_DIR$/pac-man/style.less" />
         <option value="$PROJECT_DIR$/svg-attr/svg-attr.less" />
         <option value="$PROJECT_DIR$/svg-animation/svg-ani.less" />
-        <option value="$PROJECT_DIR$/svg-animation/svg-ani.jade" />
-        <option value="$PROJECT_DIR$/svg-attr/svg-attr.jade" />
         <option value="$PROJECT_DIR$/complieIndex.js" />
+        <option value="$PROJECT_DIR$/toolBar.js" />
         <option value="$PROJECT_DIR$/index.jade" />
         <option value="$PROJECT_DIR$/positions.less" />
-        <option value="$PROJECT_DIR$/canvas/canvas.jade" />
         <option value="$PROJECT_DIR$/canvas/canvas.less" />
+        <option value="$PROJECT_DIR$/canvas/canvas.jade" />
+        <option value="$PROJECT_DIR$/canvas/canvas.js" />
         <option value="$PROJECT_DIR$/style.less" />
-        <option value="$PROJECT_DIR$/toolBar.js" />
+        <option value="$PROJECT_DIR$/svg/svg.jade" />
+        <option value="$PROJECT_DIR$/svg-animation/svg-ani.jade" />
+        <option value="$PROJECT_DIR$/svg-attr/svg-attr.jade" />
       </list>
     </option>
   </component>
@@ -354,6 +357,34 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="svg-animation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HTML5" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HTML5" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="svg" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HTML5" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HTML5" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="canvas" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -381,7 +412,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="editorconfig.notification" value="Applied .editorconfig settings" />
-    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/USNY-ZStallings/Desktop/HTML5/svg-attr/svg-attr.jade" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/USNY-ZStallings/Desktop/HTML5/canvas/canvas.jade" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -491,14 +522,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/index.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="285" max-vertical-offset="645">
-          <caret line="19" column="32" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/svg/svg.jade">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="74" max-vertical-offset="585">
@@ -575,7 +598,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="10185" max-vertical-offset="10185">
           <caret line="673" column="0" selection-start-line="673" selection-start-column="0" selection-end-line="673" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1435059620000" expanded="true" signature="2682:2683" placeholder="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -616,7 +641,7 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="210">
           <caret line="8" column="84" selection-start-line="8" selection-start-column="84" selection-end-line="8" selection-end-column="84" />
           <folding>
-            <marker date="1435027089000" expanded="true" signature="9152:10338" placeholder="..." />
+            <marker date="1435059620000" expanded="true" signature="196:8815" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -634,7 +659,7 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="1170" max-vertical-offset="1260">
           <caret line="78" column="7" selection-start-line="78" selection-start-column="7" selection-end-line="78" selection-end-column="7" />
           <folding>
-            <marker date="1435027089000" expanded="true" signature="9152:10338" placeholder="..." />
+            <marker date="1435059620000" expanded="true" signature="196:8815" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -726,6 +751,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="105">
           <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -761,14 +787,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/presutils.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
-          <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/square/_square.jade">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="314" max-vertical-offset="810">
@@ -785,14 +803,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/svg/svg.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.037037" vertical-offset="116" max-vertical-offset="585">
-          <caret line="24" column="26" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pac-man/style.less">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-14.375" vertical-offset="0" max-vertical-offset="4110">
@@ -803,8 +813,58 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/output/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="9584" max-vertical-offset="10815">
-          <caret line="715" column="0" selection-start-line="715" selection-start-column="0" selection-end-line="715" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="9929" max-vertical-offset="11160">
+          <caret line="738" column="0" selection-start-line="738" selection-start-column="0" selection-end-line="738" selection-end-column="0" />
+          <folding>
+            <marker date="1435059620000" expanded="true" signature="2682:2683" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/complieIndex.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="975">
+          <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/svg-attr/svg-attr.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.125" vertical-offset="0" max-vertical-offset="285">
+          <caret line="5" column="2" selection-start-line="5" selection-start-column="2" selection-end-line="12" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/presutils.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
+          <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/toolBar.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="705">
+          <caret line="8" column="46" selection-start-line="8" selection-start-column="46" selection-end-line="8" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="224" max-vertical-offset="735">
+          <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/canvas/canvas.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.375" vertical-offset="0" max-vertical-offset="345">
+          <caret line="15" column="27" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
           <folding />
         </state>
       </provider>
@@ -817,82 +877,58 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/svg-animation/svg-ani.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.592592" vertical-offset="1151" max-vertical-offset="2475">
-          <caret line="94" column="33" selection-start-line="94" selection-start-column="33" selection-end-line="94" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/complieIndex.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="975">
-          <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/canvas/canvas.jade">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="120">
-          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/svg-attr/svg-attr.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.625" vertical-offset="0" max-vertical-offset="285">
-          <caret line="1" column="2" selection-start-line="1" selection-start-column="2" selection-end-line="3" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/canvas/canvas.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.875" vertical-offset="0" max-vertical-offset="150">
-          <caret line="3" column="3" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="149" max-vertical-offset="645">
+          <caret line="12" column="32" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/positions.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-30.625" vertical-offset="0" max-vertical-offset="855">
-          <caret line="49" column="25" selection-start-line="49" selection-start-column="25" selection-end-line="49" selection-end-column="25" />
+        <state vertical-scroll-proportion="-14.041667" vertical-offset="308" max-vertical-offset="855">
+          <caret line="43" column="21" selection-start-line="43" selection-start-column="16" selection-end-line="43" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/canvas/canvas.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="555">
+          <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/svg/svg.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="89" max-vertical-offset="585">
+          <caret line="21" column="39" selection-start-line="21" selection-start-column="39" selection-end-line="21" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/svg-animation/svg-ani.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.814815" vertical-offset="1406" max-vertical-offset="2490">
+          <caret line="106" column="49" selection-start-line="106" selection-start-column="49" selection-end-line="106" selection-end-column="49" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/style.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-24.375" vertical-offset="240" max-vertical-offset="2910">
-          <caret line="55" column="5" selection-start-line="55" selection-start-column="5" selection-end-line="55" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/toolBar.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.24193548" vertical-offset="0" max-vertical-offset="705">
-          <caret line="8" column="46" selection-start-line="8" selection-start-column="46" selection-end-line="8" selection-end-column="46" />
+        <state vertical-scroll-proportion="0.77754235" vertical-offset="2018" max-vertical-offset="3165">
+          <caret line="159" column="1" selection-start-line="159" selection-start-column="1" selection-end-line="159" selection-end-column="11" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/svg-attr/svg-attr.jade">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1890">
-          <caret line="2" column="45" selection-start-line="2" selection-start-column="45" selection-end-line="2" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6653226" vertical-offset="45" max-vertical-offset="720">
-          <caret line="25" column="39" selection-start-line="25" selection-start-column="39" selection-end-line="25" selection-end-column="39" />
+        <state vertical-scroll-proportion="0.6955645" vertical-offset="0" max-vertical-offset="1890">
+          <caret line="23" column="79" selection-start-line="23" selection-start-column="79" selection-end-line="23" selection-end-column="79" />
           <folding />
         </state>
       </provider>

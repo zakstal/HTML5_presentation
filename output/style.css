@@ -179,8 +179,20 @@ a {
 .darkyellow {
   color: darkgoldenrod;
 }
+.alice-blue {
+  color: aliceblue;
+}
 .selected {
   border: 1px solid orangered;
+}
+.text-blue {
+  color: cadetblue;
+}
+.text-peach {
+  color: peachpuff;
+}
+.text-beige {
+  color: beige;
 }
 .square {
   position: relative;
@@ -399,6 +411,65 @@ a {
   -webkit-transform: perspective(400) rotate3d(1, 1, -2, -45deg);
   content: ' -webkit-transform: perspective(400) rotate3d(1, 1, -4, 45deg)';
 }
+.keyframe .text-block {
+  width: 60%;
+  padding-bottom: 150px;
+}
+.keyframe > .header {
+  color: orangered;
+  font-size: 20px;
+}
+.keyframe #jumper {
+  background: orangered;
+  position: absolute;
+  width: 200px;
+  height: 300px;
+  bottom: 200px;
+  left: 200px;
+}
+.keyframe #both {
+  cursor: pointer;
+}
+.keyframe .both {
+  animation-name: jump, moveit;
+  animation-duration: .5s, .5s;
+  animation-timing-function: ease-in, ease-in;
+  animation-iteration-count: infinite, infinite;
+  animation-direction: alternate, alternate;
+}
+.keyframe .moveit {
+  animation-name: moveit;
+  animation-duration: .5s;
+  animation-timing-function: ease-in;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+.keyframe .jump {
+  bottom: 20px;
+  animation-name: jump;
+  animation-duration: .5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+@keyframes jump {
+  0% {
+    -webkit-transform: perspective(400) scale3d(1, 1, 1);
+  }
+  65% {
+    -webkit-transform: perspective(400) scale3d(1, 1, 1);
+  }
+  100% {
+    -webkit-transform: perspective(400) scale3d(1.2, 0.5, 2);
+  }
+}
+@keyframes moveit {
+  0% {
+    bottom: 300px;
+  }
+  100% {
+    bottom: 100px;
+  }
+}
 .pac-man {
   position: absolute;
   left: 200px;
@@ -599,64 +670,27 @@ a {
     transform: translate3d(0, -1500px, 0);
   }
 }
-.keyframe .text-block {
+.svg .text-block {
   width: 60%;
-  padding-bottom: 150px;
 }
-.keyframe > .header {
-  color: orangered;
-  font-size: 20px;
-}
-.keyframe #jumper {
-  background: orangered;
+.svg .svg-example {
+  height: 500px;
+  padding: 20px;
   position: absolute;
-  width: 200px;
-  height: 300px;
-  bottom: 200px;
-  left: 200px;
+  top: 50px;
+  left: 100px;
+  width: 700px;
 }
-.keyframe #both {
-  cursor: pointer;
+.svg-attr .text-block {
+  width: 100%;
 }
-.keyframe .both {
-  animation-name: jump, moveit;
-  animation-duration: .5s, .5s;
-  animation-timing-function: ease-in, ease-in;
-  animation-iteration-count: infinite, infinite;
-  animation-direction: alternate, alternate;
-}
-.keyframe .moveit {
-  animation-name: moveit;
-  animation-duration: .5s;
-  animation-timing-function: ease-in;
-  animation-iteration-count: infinite;
-  animation-direction: alternate;
-}
-.keyframe .jump {
-  bottom: 20px;
-  animation-name: jump;
-  animation-duration: .5s;
-  animation-iteration-count: infinite;
-  animation-direction: alternate;
-}
-@keyframes jump {
-  0% {
-    -webkit-transform: perspective(400) scale3d(1, 1, 1);
-  }
-  65% {
-    -webkit-transform: perspective(400) scale3d(1, 1, 1);
-  }
-  100% {
-    -webkit-transform: perspective(400) scale3d(1.2, 0.5, 2);
-  }
-}
-@keyframes moveit {
-  0% {
-    bottom: 300px;
-  }
-  100% {
-    bottom: 100px;
-  }
+.svg-attr .svg-example {
+  height: 500px;
+  padding: 20px;
+  position: absolute;
+  top: 50px;
+  right: -20px;
+  width: 700px;
 }
 .svg-ani .text-block {
   width: 100%;
@@ -688,28 +722,17 @@ a {
 .svg-ani svg {
   padding-left: 100px;
 }
-.svg-attr .text-block {
-  width: 100%;
-}
-.svg-attr .svg-example {
-  height: 500px;
-  padding: 20px;
-  position: absolute;
-  top: 50px;
-  right: -20px;
-  width: 700px;
-}
-.svg .text-block {
+.canvas .text-block {
   width: 60%;
 }
-.svg .svg-example {
+.canvas .canvas-example {
   height: 500px;
   padding: 20px;
   position: absolute;
   top: 50px;
-  left: 100px;
+  left: 0px;
   width: 700px;
 }
-.canvas .text-block {
-  width: 100%;
+.canvas .canvas-info {
+  background: url(assets/);
 }

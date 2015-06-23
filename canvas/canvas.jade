@@ -1,3 +1,38 @@
 .canvas
     .text-block
         .header Canvas
+        p just a bit map with an api
+        br
+        br
+        p.sub-heading.darkyellow how?
+        p.indent #[span.alice-blue />]< canvas id="my-canvas" >
+        br
+        p.indent #[span.alice-blue />]var canvas = document.getElementById('canvas');
+        p.indent #[span.alice-blue />]var ctx = canvas.getContext('2d');
+        br
+        p.sub-heading.darkyellow Draw a simple line
+        br
+        p.indnet var path=new Path2D();
+        p.indnet path.moveTo(75,50);
+        p.indnet path.lineTo(150,150);
+        p.indnet ctx.stroke(path);
+        .canvas-info
+        br
+        br
+        p.sub-heading.darkyellow Libraries
+        br
+        p.indent WebGl
+        p.indent Three.js
+        br
+        br
+        br
+        p.sub-heading.examples Example Links
+        a.indent(href="http://animateyourhtml5.appspot.com/pres/index.html#32") Canvas info
+        a.indent(href="http://threejs.org/") Three.js
+        a.indent(href="http://hakim.se/experiments/html5/origami/") Origami
+        a.indent(href="https://dl.dropboxusercontent.com/u/621993/voronoi/voronoi.html") Bubbles?
+        a.indent(href="http://mylifeaquatic.herokuapp.com/") Fish
+        a.indent(href="http://happyfuncorp.com/#home") Secret
+
+    .canvas-example
+        canvas#canvas(width="470px", height="520px")
