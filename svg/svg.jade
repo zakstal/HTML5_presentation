@@ -1,1 +1,33 @@
 .svg
+    .text-block
+        .header SVG Basics
+
+        p.indent.sub-heading Available tools
+        p.double-indent.sub-heading rect x y
+        p.double-indent.sub-heading line x1 y1 x2 y2
+        p.double-indent.sub-heading circle cx cy r
+        p.double-indent.sub-heading image x y width height xlink:href
+        p.double-indent.sub-heading #[span Path d  ]
+        p.indent #[span M x,y               ]     new pen position (Marker)
+        p.indent #[span L x,y               ]      Line to
+        p.indent #[span Q cx, cy, x, y      ]   Quadratic Bézier curve to (x,y)and one control point
+        p.indent #[span C cx,cy, dx,dy, x,y ] Cubic Bézier curve to (x, y) and two control points
+        p.indent #[span A                   ]       elliptic Arc
+        p.indent #[span z                   ]        at the end of the string, closes the path
+    .svg-example
+        svg(width="300" height="300")
+            <rect x="5" y="5" width="140" height="140" stroke="#000000" strokewidth="4"fill="#AAAAFF" opacity="1"/>
+            <circle cx="150" cy="200" r="90" stroke="#000000" strokewidth="4" fill="yellow"></circle>
+        br
+        .indent svg
+        .double-indent rect x="5" y="5"
+        .double-indent width="140" height="140"
+        .double-indent stroke="#000000" strokewidth="4"
+        .double-indent ="#AAAAFF" opacity="1"/
+        br
+        .double-indent circle cx="150" cy="200" r="90"
+        .double-indent stroke="#000000" strokewidth="4"
+        .double-indent fill="#333333"
+        .double-indent /circle
+        .indent /svg
+

@@ -2,7 +2,9 @@
 body {
   height: 776px;
   width: 1400px;
-//  overflow: hidden;
+  margin-top: -120px;
+  margin-left: -20px;
+  overflow: hidden;
   box-sizing: border-box;
 }
 
@@ -22,6 +24,7 @@ a {
   position: relative;
   transition: all 1s;
   left: 0;
+  top: -150px;
 }
 
 .task-bar {
@@ -48,7 +51,12 @@ a {
     text-align: center;
     margin-right: @taskBarPadding;
     width: @taskBarHeight;
+    &.selected {
+      border: 1px solid orangered;
+    }
   }
+
+
 }
 @slideHeight: 700px;
 .slide(@posLeft, @posTop) {
@@ -109,6 +117,35 @@ a {
   font-size: 25px;
 }
 
+.orange {
+  color: orangered;
+}
+
+.yellow {
+  color: orange;
+}
+
+.purple {
+  color: midnightblue;
+}
+
+.red {
+  color: darkred;
+}
+
+.blue {
+  color: darkslateblue;
+}
+
+.darkyellow {
+  color: darkgoldenrod;
+}
+
+.selected {
+  border: 1px solid orangered;
+}
+//--------------------------------------------
+
 .square {
   .slide(0px, 320px);
 //  background: purple;
@@ -135,7 +172,18 @@ a {
 }
 
 
-.keyframe {
-  .slide(2900px, -800px);
-  background: red;
+.svg {
+  .slide(2900px, 800px);
+}
+
+.svg-ani {
+  .slide(1500px, 800px);
+}
+
+.svg-attr {
+  .slide(2920px, 620);
+}
+
+.canvas {
+  .slide(4400px, -4000px);
 }

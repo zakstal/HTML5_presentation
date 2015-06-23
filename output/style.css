@@ -73,6 +73,8 @@
 body {
   height: 776px;
   width: 1400px;
+  margin-top: -120px;
+  margin-left: -20px;
   overflow: hidden;
   box-sizing: border-box;
 }
@@ -90,6 +92,7 @@ a {
   position: relative;
   transition: all 1s;
   left: 0;
+  top: -150px;
 }
 .task-bar {
   background: #fff;
@@ -113,6 +116,9 @@ a {
   text-align: center;
   margin-right: 10px;
   width: 75px;
+}
+.task-bar .button.selected {
+  border: 1px solid orangered;
 }
 .text-block {
   font-family: sans-serif;
@@ -155,6 +161,27 @@ a {
 .sub-heading {
   font-size: 25px;
 }
+.orange {
+  color: orangered;
+}
+.yellow {
+  color: orange;
+}
+.purple {
+  color: midnightblue;
+}
+.red {
+  color: darkred;
+}
+.blue {
+  color: darkslateblue;
+}
+.darkyellow {
+  color: darkgoldenrod;
+}
+.selected {
+  border: 1px solid orangered;
+}
 .square {
   position: relative;
   left: 0px;
@@ -193,6 +220,34 @@ a {
   width: 1440px;
   height: 700px;
 }
+.svg {
+  position: relative;
+  left: 2900px;
+  top: 580px;
+  width: 1440px;
+  height: 700px;
+}
+.svg-ani {
+  position: relative;
+  left: 1500px;
+  top: 580px;
+  width: 1440px;
+  height: 700px;
+}
+.svg-attr {
+  position: relative;
+  left: 2920px;
+  top: 400px;
+  width: 1440px;
+  height: 700px;
+}
+.canvas {
+  position: relative;
+  left: 4400px;
+  top: -4220px;
+  width: 1440px;
+  height: 700px;
+}
 .transitions .text-block {
   width: 100%;
 }
@@ -228,6 +283,26 @@ a {
 #background.pacman {
   left: -1445px;
   top: -2470px;
+}
+#background.svgpos {
+  left: -2885px;
+  top: -4020px;
+  background: cadetblue;
+}
+#background.svganipos {
+  left: -1495px;
+  top: -4720px;
+  background: peachpuff;
+}
+#background.svg-attrpos {
+  left: -2895px;
+  top: -5220px;
+  background: beige;
+}
+#background.canvaspos {
+  left: -4365px;
+  top: -1300px;
+  background: aliceblue;
 }
 .transforms .text-block {
   width: 100%;
@@ -323,88 +398,6 @@ a {
 .transforms .rotate3DTr:before {
   -webkit-transform: perspective(400) rotate3d(1, 1, -2, -45deg);
   content: ' -webkit-transform: perspective(400) rotate3d(1, 1, -4, 45deg)';
-}
-.keyframe .text-block {
-  width: 60%;
-  padding-bottom: 150px;
-}
-.keyframe > .header {
-  color: orangered;
-  font-size: 20px;
-}
-.keyframe #jumper {
-  background: orangered;
-  position: absolute;
-  width: 200px;
-  height: 300px;
-  bottom: 200px;
-  left: 200px;
-}
-.keyframe #both {
-  cursor: pointer;
-}
-.keyframe .both {
-  animation-name: jump, moveit;
-  animation-duration: .5s, .5s;
-  animation-timing-function: ease-in, ease-in;
-  animation-iteration-count: infinite, infinite;
-  animation-direction: alternate, alternate;
-}
-.keyframe .moveit {
-  animation-name: moveit;
-  animation-duration: .5s;
-  animation-timing-function: ease-in;
-  animation-iteration-count: infinite;
-  animation-direction: alternate;
-}
-.keyframe .jump {
-  bottom: 20px;
-  animation-name: jump;
-  animation-duration: .5s;
-  animation-iteration-count: infinite;
-  animation-direction: alternate;
-}
-.keyframe .orange {
-  color: orangered;
-}
-.keyframe .yellow {
-  color: orange;
-}
-.keyframe .purple {
-  color: midnightblue;
-}
-.keyframe .red {
-  color: darkred;
-}
-.keyframe .blue {
-  color: darkslateblue;
-}
-.keyframe .darkyellow {
-  color: darkgoldenrod;
-}
-@keyframes jump {
-  0% {
-    -webkit-transform: perspective(400) scale3d(1, 1, 1);
-  }
-  65% {
-    -webkit-transform: perspective(400) scale3d(1, 1, 1);
-  }
-  100% {
-    -webkit-transform: perspective(400) scale3d(1.2, 0.5, 2);
-  }
-}
-@keyframes moveit {
-  0% {
-    bottom: 300px;
-  }
-  100% {
-    bottom: 100px;
-  }
-}
-body {
-  border-top: 1px solid transparent;
-  margin: 0;
-  padding: 0;
 }
 .pac-man {
   position: absolute;
@@ -605,4 +598,118 @@ body {
   100% {
     transform: translate3d(0, -1500px, 0);
   }
+}
+.keyframe .text-block {
+  width: 60%;
+  padding-bottom: 150px;
+}
+.keyframe > .header {
+  color: orangered;
+  font-size: 20px;
+}
+.keyframe #jumper {
+  background: orangered;
+  position: absolute;
+  width: 200px;
+  height: 300px;
+  bottom: 200px;
+  left: 200px;
+}
+.keyframe #both {
+  cursor: pointer;
+}
+.keyframe .both {
+  animation-name: jump, moveit;
+  animation-duration: .5s, .5s;
+  animation-timing-function: ease-in, ease-in;
+  animation-iteration-count: infinite, infinite;
+  animation-direction: alternate, alternate;
+}
+.keyframe .moveit {
+  animation-name: moveit;
+  animation-duration: .5s;
+  animation-timing-function: ease-in;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+.keyframe .jump {
+  bottom: 20px;
+  animation-name: jump;
+  animation-duration: .5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+@keyframes jump {
+  0% {
+    -webkit-transform: perspective(400) scale3d(1, 1, 1);
+  }
+  65% {
+    -webkit-transform: perspective(400) scale3d(1, 1, 1);
+  }
+  100% {
+    -webkit-transform: perspective(400) scale3d(1.2, 0.5, 2);
+  }
+}
+@keyframes moveit {
+  0% {
+    bottom: 300px;
+  }
+  100% {
+    bottom: 100px;
+  }
+}
+.svg-ani .text-block {
+  width: 100%;
+}
+.svg-ani .svg-example {
+  height: 500px;
+  padding: 20px;
+  position: absolute;
+  top: 50px;
+  right: 200px;
+  width: 700px;
+}
+.svg-ani .example-one {
+  top: 20px;
+}
+.svg-ani .example-two {
+  top: 800px;
+  right: -100px;
+  width: 1000px;
+}
+.svg-ani .example-three {
+  top: 1600px;
+  right: -100px;
+  width: 1000px;
+}
+.svg-ani .examples {
+  margin-top: 800px;
+}
+.svg-ani svg {
+  padding-left: 100px;
+}
+.svg-attr .text-block {
+  width: 100%;
+}
+.svg-attr .svg-example {
+  height: 500px;
+  padding: 20px;
+  position: absolute;
+  top: 50px;
+  right: -20px;
+  width: 700px;
+}
+.svg .text-block {
+  width: 60%;
+}
+.svg .svg-example {
+  height: 500px;
+  padding: 20px;
+  position: absolute;
+  top: 50px;
+  left: 100px;
+  width: 700px;
+}
+.canvas .text-block {
+  width: 100%;
 }

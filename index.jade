@@ -11,13 +11,20 @@ html
             include keyframe/keyframe
             include pac-man/_pacman
             include svg/svg
+            include svg-animation/svg-ani
+            include svg-attr/svg-attr
+            include canvas/canvas
        .task-bar
            .button(className="transitions") Quick Review
            .button(className="transforms") Transforms
            .button(className="square") 3D Animate a cube
            .button(className="keyframes") Keyframes
            .button(className="pacman") Pac Man
-           .button(className="svg") SVG
+           .button(className="svgpos") SVG
+           .button(className="svg-attrpos") SVG Animation Attributes
+           .button(className="svganipos") SVG Animation
+           .button(className="canvaspos") Canvas
+
 
     script(src="../globals.js")
     script(src="../pac-man/utils.js")

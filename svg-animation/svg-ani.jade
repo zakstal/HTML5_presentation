@@ -1,0 +1,159 @@
+.svg-ani
+    .text-block
+        .header SVG SMIL
+        .sub-heading Three native methods
+        p.indent animate
+        p.indent animateTransform
+        p.indent animateMotion
+        br
+        br
+        br
+        br
+        br
+        br
+        br
+        br
+        br
+        br
+        br
+        .sub-heading.indent.animate Animate
+        p.indent attributeName
+        p.indent attributeType
+        p.indent from
+        p.indent to
+        p.indent dur
+        p.indent repeatCount
+        br
+        br
+        br
+        br
+        br
+        br
+        br
+        br
+        br
+        br
+        br
+        br
+        br
+        br
+        br
+        br
+        br
+        br
+        .sub-heading.indent AnimateTransform
+        p.indent calcMode
+        p.indent path
+        p.indent keyPoints
+        p.indent rotate
+        p.indent origin
+        p.indent by
+        p.indent from
+        p.indent to
+        p.indent type
+        br
+        br
+        br
+        br
+        br
+        br
+        br
+        br
+        br
+        br
+        br
+        br
+        br
+        br
+        br
+        br
+        br
+        br
+        br
+        br
+        br
+        br
+        br
+        br
+        .sub-heading.indent AnimateMotion
+        p.indent calcMode
+        p.indent path
+        p.indent keyPoints
+        p.indent rotate
+        p.indent origin
+        br
+        br
+        br
+        p.sub-heading.examples Example Links
+        a.indent(href="http://animateyourhtml5.appspot.com/pres/index.html?lang=en#22") SVG slides
+        a.indent(href="https://developer.mozilla.org/en-US/docs/Web/SVG/Element") SVG element reference
+        a.indent(href="http://slides.com/sarasoueidan/styling-animating-svgs-with-css#/18") SVG transition example
+        a.indent(href="http://codepen.io/SaraSoueidan/pen/40433575e3d0d026c7d9c00eb45522a1?editors=110") Click
+        a.indent(href="http://tympanus.net/Development/ElasticSVGElements/collapseexpand.html") Collaps
+        a.indent(href="http://tympanus.net/Development/CreativeGooeyEffects/menu.html") Menu
+        a.indent(href="http://snapsvg.io/") Snap.svg
+        p dont forget javascript!
+        .svg-example.example-one
+            svg(width="400" height="400")
+                <circle cx="200" cy="205" r="80" fill="darkgoldenrod">
+                <animate dur="3s" attributeName="r" values="80; 150; 80" repeatCount="indefinite" / >
+                </circle>
+            p.sub-heading circle cx="200" cy="205" r="80" fill="darkgoldenrod"
+            p.sub-heading.double-indent animate dur="3s"
+            p.sub-heading.double-indent attributeName="r"
+            p.sub-heading.double-indent values="80; 150; 80"
+            p.sub-heading.double-indent repeatCount="indefinite" /
+            p.sub-heading /circle
+        .svg-example.example-two
+            svg(width="200" height="200")
+                <rect x="20" y="50" width="15" height="34" fill="darkolivegreen" stroke-width="1" transform="rotation">
+                <animateTransform attributeName="transform" begin="0s" dur="20s" type="rotate" from="0 60 60" to="360 100 60" repeatCount="indefinite" />
+                </rect>
+            p.sub-heading rect x="0" y="50" width="15" height="34"
+            p.sub-heading.double-indent animateTransform
+            p.sub-heading.double-indent attributeName="transform"
+            p.sub-heading.double-indent begin="0s"
+            p.sub-heading.double-indent dur="20s"
+            p.sub-heading.double-indent type="rotate"
+            p.sub-heading.double-indent from="0 60 60"
+            p.sub-heading.double-indent to="360 100 60"
+            p.sub-heading.double-indent repeatCount="indefinite"
+            p.sub-heading /rect
+
+        p.sub-heading Credit:
+            p.double-indent(href="https://developer.mozilla.org/en-US/docs/Web/SVG/SVG_animation_with_SMIL") https://developer.mozilla.org/en-US/docs/Web/SVG/SVG_animation_with_SMIL
+        .svg-example.example-three
+            svg(width="200" height="200")
+                <rect x="0" y="0" width="300" height="100" stroke="black" stroke-width="1" />
+                <rect x="0" y="0" width="20" height="20" fill="blue" stroke="black" stroke-width="1">
+                <animateMotion path="M 250,80 H 50 Q 30,80 30,50 Q 30,20 50,20 H 250 Q 280,20,280,50 Q 280,80,250,80Z" dur="3s" repeatCount="indefinite" rotate="auto">
+                </rect>
+
+            p.sub-heading rect x="0" y="0" width="20" height="20"
+            p.sub-heading.double-indent animateMotion
+            p.sub-heading.double-indent path="M 250,80 H 50 Q 30,80 30,50 Q 30,20 50,20
+            p.sub-heading.double-indent H 250 Q 280,20,280,50 Q 280,80,250,80Z"
+            p.sub-heading.double-indent dur="3s"
+            p.sub-heading.double-indent repeatCount="indefinite"
+            p.sub-heading.double-indent rotate="auto"
+            p.sub-heading /rect
+            br
+            br
+            br
+            br
+            br
+            br
+            br
+            br
+            br
+            p.header Text on a path
+            br
+            <svg width="500" height="350" viewBox="0 0 500 350">
+            <path id="myPath" fill="none" stroke="#000000" stroke-miterlimit="10" d="M91.4,104.2c3.2-3.4,18.4-0.6,23.4-0.6c5.7,0.1,10.8,0.9,16.3,2.3 c13.5,3.5,26.1,9.6,38.5,16.2c12.3,6.5,21.3,16.8,31.9,25.4c10.8,8.7,21,18.3,31.7,26.9c9.3,7.4,20.9,11.5,31.4,16.7 c13.7,6.8,26.8,9.7,41.8,9c21.4-1,40.8-3.7,61.3-10.4c10.9-3.5,18.9-11.3,28.5-17.8c5.4-3.7,10.4-6.7,14.8-11.5 c1.9-2.1,3.7-5.5,6.5-6.5"/>
+            <text>
+            <textpath xlink:href="#myPath"> Text laid out along a path.
+            <animate attributeName="startOffset" from="0%" to ="100%" begin="0s" dur="5s" repeatCount="indefinite" keyTimes="0;1" calcMode="spline" keySplines="0.1 0.2 .22 1"/>
+            </textpath>
+            </text>
+            </svg>
+

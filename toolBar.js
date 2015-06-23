@@ -6,6 +6,7 @@
     var currentClassName = 'transitions';
 
     background.classList.add(currentClassName);
+    background.classList.add(currentClassName);
 
     var switchClass = function (className) {
         if (currentClassName) {
@@ -19,6 +20,9 @@
     var switchView = function switchView(e) {
         className = e.target.attributes.className.value;
         switchClass(className);
+        console.log('e', e.target.classList);
+        removeSelected();
+        e.target.classList.add('selected');
     };
     console.log('buttons', buttons);
 
@@ -26,6 +30,13 @@
         button = buttons[i];
         console.log('here');
         button.addEventListener('click', switchView);
+    }
+
+    var removeSelected = function () {
+        for (var i = 0; i < buttons.length; i++) {
+            button = buttons[i];
+            button.classList.remove('selected');
+        }
     }
 
 }());

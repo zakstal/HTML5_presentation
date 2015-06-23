@@ -10,7 +10,11 @@ var files = [
     'positions.less',
     'transforms/transforms.less',
     'keyframe/keyframe.less',
-    'pac-man/style.less'
+    'pac-man/style.less',
+    'svg/svg.less',
+    'svg-animation/svg-ani.less',
+    'svg-attr/svg-attr.less',
+    'canvas/canvas.less'
 ];
 var css = [];
 var file;
